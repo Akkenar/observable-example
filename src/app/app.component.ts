@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent implements OnInit {
 
-    private value: Observable<string>;
+    public value: Observable<string>;
 
     constructor(private helloService: HelloService) {
     }

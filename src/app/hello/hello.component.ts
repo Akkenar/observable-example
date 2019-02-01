@@ -8,7 +8,7 @@ import { HelloService } from '../hello.service';
 })
 export class HelloComponent implements OnInit {
 
-    private simpleObservable: Observable<string>;
+    public simpleObservable: Observable<string>;
 
     constructor(private helloService: HelloService) {
     }
